@@ -7,9 +7,16 @@ body{
 h1{
     font-size: 40px;
     color: #000000;
+    transition: .3s;
+}
+h1:hover{
+    color: #f06db9;
 }
 h2{
     font-size: 30px;
+}
+h2:hover{
+    color: #00B89F;
 }
 a{  
     text-decoration: none;
@@ -54,10 +61,11 @@ margin-right: 78px;
     border-radius: 5px;
     color: rgb(95, 94, 94);
     font-weight: 600;
+    transition: 0.3s;
 }
 .link-btn:hover{
     background-image: linear-gradient(45deg, #9cdfd6, #ed91f3);
-    transition: 0.3s;
+    
 }
 small{
     margin-top: 15px;
@@ -152,10 +160,11 @@ text-align: center;
     border-radius: 5px;
     color: rgb(90, 89, 89);
     font-weight: 600;
+    transition: 0.3s;
 }
 .link-button:hover{
     background-image: linear-gradient(45deg, #9f9ee9, #91cff3);
-    transition: 0.3s;
+    
 
 }
 /*--Section 4  section end--*/
