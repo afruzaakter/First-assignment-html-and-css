@@ -44,7 +44,7 @@ width: 50%;
 padding-left: 35%;
 }
 .link-btn{
-    background-image: linear-gradient( 45deg, #963E9E, #F696FF, #E273EB);
+    background-image: linear-gradient(45deg, #F696FF, #E273EB);
     padding: 8px 25px;
     border-radius: 5px;
     color: black;
@@ -64,6 +64,7 @@ text-align: center;
 .card-img{
     width: 141px;
     height: 141px;
+    margin-left: 20px;
 }
 .card-flexible{
     display: flex;
@@ -74,10 +75,12 @@ text-align: center;
     width: 360px;
     height: 376px;
     border-radius: 10px;
+    
 }
 .card-title{
     width: 315px;
     height: 153px;
+    padding: 35px;
 }
 .card-color-1{
     background-image: linear-gradient(90deg, #d4d0d0, #f0e7e7, #efc0f3);
@@ -116,6 +119,15 @@ text-align: center;
    margin: 0 auto;
    
     
+}
+.app-part::before{
+    content: '';
+    position: absolute;
+   top:0;
+   left:0;
+   color: rebeccapurple;
+    height: 100px;
+    width: 100px;
 }
 .app-title-part{
     width: 525px;
