@@ -49,11 +49,15 @@ padding-left: 35%;
 margin-right: 78px;
 }
 .link-btn{
-    background-image: linear-gradient(45deg, #F696FF, #E273EB);
+    background-image: linear-gradient(45deg, #00B89F, #e59eeb);
     padding: 8px 25px;
     border-radius: 5px;
-    color: black;
+    color: rgb(95, 94, 94);
     font-weight: 600;
+}
+.link-btn:hover{
+    background-image: linear-gradient(45deg, #9cdfd6, #ed91f3);
+    transition: 0.3s;
 }
 small{
     margin-top: 15px;
@@ -143,11 +147,16 @@ text-align: center;
     height: 542px;
 }
 .link-button{
-    background-image: linear-gradient(45deg, #00B89F, #E273EB);
+    background-image: linear-gradient(45deg, #9cdfd6, #ed91f3);
     padding: 8px 25px;
     border-radius: 5px;
-    color: black;
+    color: rgb(90, 89, 89);
     font-weight: 600;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, #9f9ee9, #91cff3);
+    transition: 0.3s;
+
 }
 /*--Section 4  section end--*/
 footer{
