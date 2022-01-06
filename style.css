@@ -78,6 +78,9 @@ small{
 .card-heading{
 text-align: center;
 }
+.card-heading:hover{
+    color: #f06db9;
+}
 .card-img{
     width: 141px;
     height: 141px;
@@ -133,9 +136,7 @@ text-align: center;
     display: flex;
     justify-content: space-around;
    width: 80%;
-   margin: 0 auto;
-   
-    
+   margin: 0 auto;   
 }
 .app-part::before{
     content: '';
@@ -146,6 +147,9 @@ text-align: center;
     height: 100px;
     width: 100px;
 }
+.app-heading:hover{
+    color: #f06db9;
+}
 .app-title-part{
     width: 525px;
     height: 333px;
@@ -155,7 +159,7 @@ text-align: center;
 
 }
 .link-button{
-    background-image: linear-gradient(45deg, #9cdfd6, #ed91f3);
+    background-image: linear-gradient(45deg, #84dbd0, #ed91f3);
     padding: 8px 25px;
     border-radius: 5px;
     color: rgb(90, 89, 89);
