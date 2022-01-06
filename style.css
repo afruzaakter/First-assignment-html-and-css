@@ -5,7 +5,10 @@ body{
     background-color: #E5E5E5;
 }
 h1{
-    font-size: 45px;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 a{  
     text-decoration: none;
@@ -13,6 +16,7 @@ a{
 section{
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 /*--Section 1 Hero section end--*/
@@ -88,11 +92,41 @@ text-align: center;
 
 
 /*--Section 3 section start--*/
-/* --Section 3 section end--
+.team-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.team-img{
+    width: 400px;
+    height: 400px;
+}
+.team-part{
+    width: 654px;
+    height: 311px;
+}
+/* --Section 3 section end--*/
 
- --Section 4  section start--
---Section 4  section end--
+/* --Section 4  section start--*/
+.app-part{
+    display: flex;
+    justify-content: space-around;
+   width: 80%;
+   margin: 0 auto;
+   
+    
+}
+.app-title-part{
+    width: 525px;
+    height: 333px;
+}
+.app-img{
+    width: 338px;
+    height: 542px;
+}
+/*--Section 4  section end--*/
 
 
---Section 5 section start--
+/*--Section 5 section start--
 --Section 5 section end--
